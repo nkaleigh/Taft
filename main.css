@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+.wrapper {
+    font-family: 'Lato', sans-serif;
+}
+
+.main-header {
+    width: 100%;
+}
+
+.header-shipping {
+    width: 100%;
+    height: auto;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    line-height: 22.5px;
+    background: #5c5c5c;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.header-tools-wrapper {
+    height: auto;
+    padding: 0 30px;
+    background: #f2f2f2;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.aligned-left {
+    width: 100%;
+    /*background: green;*/
+    display: flex;
+    align-items: center;
+}
+
+.navigation-toggle {
+    width: 18px;
+    height: 12px;
+    /*background: yellow;*/
+    font-size: 18px;
+    position: relative;
+}
+
+.bar {
+    position: absolute;
+    border-top: 2px solid;
+    border-color: #242424;
+    width: 18px;
+}
+
+.bar-mid {
+    top: 5px;
+}
+
+.bar-lower {
+    top: 10px;
+}
+
+.customer-links {
+    color: #646464;
+    display: none;
+}
+
+.mini-cart-wrapper {
+    background: #fff;
+    color: #626262;
+}
+
+.cart-count {
+    /*background: pink;*/
+    padding: 14px 20px;
+    color: #222;
+    text-align: center;
+}
+
+.checkout-link {
+    background: black;
+    padding: 10px 20px;
+    display: none;
+    text-align: center;
+}
+
+.branding {
+    height: auto;
+    padding: 22px 0 15px 0;
+    text-align: center;
+    background: blue;
+}
+
+.logoimg {
+    width: 150px;
+}
+
+.search-form {
+    width: 186px;
+}
+
+.navigation-wrapper {
+    display: none;
+}
+
+.home-slideshow {
+    width: 100%;
+    height: 178px;
+    overflow: hidden;
+}
+
+.slideshow-slide {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.main-content {
+    height: auto;
+    margin: 40px 10px 0 10px;
+    padding: 20px;
+    background: red;
+}
+
+.featured-products-list {
+    height: 300px;
+    /*padding: 0 10px;*/
+    background: black;
+}
+
+.main-footer {
+    width: 100%;
+    height: 40px;
+    background: yellow;
+}
+
+@media (min-width: 1020px) {
+    .mini-cart-wrapper {
+        display: flex;
+    }
+    .checkout-link {
+        display: inline-block;
+    }
+}
