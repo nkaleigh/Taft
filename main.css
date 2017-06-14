@@ -13,13 +13,13 @@
     height: auto;
     font-family: 'Josefin Sans', sans-serif;
     color: white;
-    font-size: 14px;
+    font-size: 18px;
     text-align: center;
-    line-height: 16.5px;
+    line-height: 22.5px;
     background: #5c5c5c;
     opacity: .9;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 
 .header-tools-wrapper {
