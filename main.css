@@ -13,10 +13,11 @@
     height: auto;
     font-family: 'Josefin Sans', sans-serif;
     color: white;
-    font-size: 18px;
+    font-size: 14px;
     text-align: center;
-    line-height: 22.5px;
+    line-height: 16.5px;
     background: #5c5c5c;
+    opacity: .9;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -79,17 +80,18 @@
 }
 
 .checkout-link {
-    background: black;
-    padding: 10px 20px;
-    display: none;
+    /*background: black;*/
+    padding: 14px 20px;
+    color: #222;
     text-align: center;
+    display: none;
 }
 
 .branding {
     height: auto;
     padding: 22px 0 15px 0;
     text-align: center;
-    background: blue;
+    /*background: blue;*/
 }
 
 .logoimg {
@@ -106,8 +108,6 @@
 
 .home-slideshow {
     width: 100%;
-    height: 178px;
-    overflow: hidden;
 }
 
 .slideshow-slide {
@@ -123,10 +123,105 @@
     background: red;
 }
 
-.featured-products-list {
-    height: 300px;
-    /*padding: 0 10px;*/
+
+/*.featured-products-list {
     background: black;
+}*/
+
+.product-list-item {
+    margin: 20px 0 30px;
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 14px;
+    background: blue;
+}
+
+.product-list-item-thumbnail {
+    height: 100px;
+    max-width: 100%;
+}
+
+.productOneImg {
+    background: url('./img/Taft_OnWhite_20170216-034_grande.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.productTwoImg {
+    background: url('./img/Taft_OnWhite_20170503-019_grande.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.productThreeImg {
+    background: url('./img/Taft_OnWhite_20170216-057_grande.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.productFourImg {
+    background: url('./img/Taft_OnWhite_20170306-010_2048_grande.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.productFiveImg {
+    background: url('./img/Taft_OnWhite_20170216-026_grande.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.productSixImg {
+    background: url('./img/Taft_OnWhite_20170216-024_grande.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.productSevenImg {
+    background: url('./img/Taft_OnWhite_20170216-048_grande.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.productEightImg {
+    background: url('./img/Taft_OnWhite_20170216_5928_2048px_grande.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.product-list-item-detail {
+    height: auto;
+    margin-top: 18px;
+    background: yellow;
+}
+
+.product-list-item-title {
+    text-align: center;
+    font-size: 15px;
+    /*line-height: 1.25;*/
+}
+
+.product-list-item-price {
+    margin-top: 5px;
+    text-align: center;
+    color: #5c5c5c;
+    font-size: 14px;
+    /*line-height: 1.625;*/
+}
+
+.product-list-item-reviews {
+    text-align: center;
+    color: #5c5c5c;
+}
+
+.fa-star {
+    font-size: 1em;
+    color: red;
+}
+
+.reviewCount {
+    font-size: 14px;
+    line-height: 1.625;
 }
 
 .main-footer {
@@ -142,4 +237,56 @@
     .checkout-link {
         display: inline-block;
     }
+    .navigation-toggle {
+        display: none;
+    }
+    .navigation-wrapper {
+        height: auto;
+        width: 100%;
+        display: block;
+        /*background: yellow;*/
+        display: flex;
+        justify-content: center;
+        background: white;
+    }
+    .navigation-wrapper-inner {
+        padding-top: 21px;
+        padding-bottom: 21px;
+        height: auto;
+        width: 500px;
+        /*background: pink;*/
+    }
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        list-style: none;
+        font-size: 18px;
+        color: #5c5c5c;
+        -webkit-font-smoothing: antialiased;
+        opacity: .8;
+        
+    }
+}
+
+@media (max-width: 540px) .rows-of-4 .product-list-item {
+    width: 100%;
+}
+
+@media (max-width: 770px) .rows-of-4 .product-list-item {
+    width: 50%;
+}
+
+@media (max-width: 1020px) .rows-of-4 .product-list-item {
+    width: 33.333%;
+}
+
+.rows-of-4 .product-list-item {
+    width: 25%;
+}
+
+
+.fixed {
+    position: fixed;
+    top: 0;
 }
