@@ -140,14 +140,12 @@
 
 .navigation-list-shoes-dropdown {
     font-size: 18px;
-    opacity: .8;
 }
 
 .fa-chevron-down {
     position: relative;
     bottom: 4px;
     left: 5px;
-    color: #5c5c5c;
 }
 
 .dropdown {
@@ -169,6 +167,10 @@
     letter-spacing: 0;
     font-size: 14px;
     background: white;
+}
+
+.dropdown li:hover {
+    color: #a7b7b7;;
 }
 
 .block-border {
@@ -359,26 +361,23 @@
     }
     .navigation-list {
         width: 500px;
+                color: #7D7D7D;
         display: flex;
         align-items: center;
         justify-content: space-around;
         list-style: none;
-        color: #5c5c5c;
         font-size: 8px;
         -webkit-font-smoothing: antialiased;
         /*background: yellow;*/
     }
     .navigation-list-home {
         font-size: 18px;
-        opacity: .8;
     }
     .navigation-list-coming {
         font-size: 18px;
-        opacity: .8;
     }
     .navigation-list-about {
         font-size: 18px;
-        opacity: .8;
     }
 }
 
