@@ -132,6 +132,48 @@
     display: none;
 }
 
+.navigation-list-shoes {
+    padding: 21px;
+    position: relative;
+    /*background: green;*/
+}
+
+.navigation-list-shoes-dropdown {
+    font-size: 18px;
+}
+
+.fa-chevron-down {
+    position: relative;
+    bottom: 4px;
+    left: 5px;
+    color: #5c5c5c;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0px;
+}
+
+.dropdown li {
+    display: block;
+    padding: 1px 25px;
+    line-height: 1.6em;
+    letter-spacing: 0;
+    font-size: 14px;
+    background: red;
+}
+
+.navigation-list-shoes:hover {
+    cursor: pointer;
+    border: 1px solid #e4e4e4;
+}
+
+.navigation-list-shoes:hover .dropdown {
+    display: block;
+}
+
 .navigation-wrapper-placeholder {
     display: none;
 }
@@ -291,22 +333,26 @@
     .navigation-wrapper-placeholder {
         display: block;
     }
-    .navigation-wrapper-inner {
-        padding-top: 21px;
-        padding-bottom: 21px;
-        height: auto;
+    .navigation-list {
         width: 500px;
-        /*background: pink;*/
-    }
-    ul {
         display: flex;
         align-items: center;
         justify-content: space-around;
         list-style: none;
-        font-size: 18px;
         color: #5c5c5c;
+        font-size: 8px;
         -webkit-font-smoothing: antialiased;
         opacity: .8;
+        background: yellow;
+    }
+    .navigation-list-home {
+        font-size: 18px;
+    }
+    .navigation-list-coming {
+        font-size: 18px;
+    }
+    .navigation-list-about {
+        font-size: 18px;
     }
 }
 
