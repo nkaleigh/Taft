@@ -170,7 +170,8 @@
 }
 
 .dropdown li:hover {
-    color: #a7b7b7;;
+    color: #a7b7b7;
+    ;
 }
 
 .block-border {
@@ -216,87 +217,29 @@
 
 .main-content {
     height: auto;
-    margin: 40px 10px 0 10px;
-    padding: 20px;
+    margin: 55px 30px 0 30px;
     background: red;
 }
 
-
-/*.featured-products-list {
-    background: black;
-}*/
-
 .product-list-item {
-    margin: 20px 0 30px;
-    display: inline-block;
-    padding: 0 20px;
-    font-size: 14px;
     background: blue;
 }
 
 .product-list-item-thumbnail {
-    height: 100px;
     max-width: 100%;
-}
-
-.productOneImg {
-    background: url('./img/Taft_OnWhite_20170216-034_grande.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.productTwoImg {
-    background: url('./img/Taft_OnWhite_20170503-019_grande.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.productThreeImg {
-    background: url('./img/Taft_OnWhite_20170216-057_grande.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.productFourImg {
-    background: url('./img/Taft_OnWhite_20170306-010_2048_grande.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.productFiveImg {
-    background: url('./img/Taft_OnWhite_20170216-026_grande.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.productSixImg {
-    background: url('./img/Taft_OnWhite_20170216-024_grande.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.productSevenImg {
-    background: url('./img/Taft_OnWhite_20170216-048_grande.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.productEightImg {
-    background: url('./img/Taft_OnWhite_20170216_5928_2048px_grande.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
+    height: auto;
 }
 
 .product-list-item-detail {
-    height: auto;
+    height: 100px;
     margin-top: 18px;
+    margin-bottom: 55px;
     background: yellow;
 }
 
 .product-list-item-title {
     text-align: center;
     font-size: 15px;
-    /*line-height: 1.25;*/
 }
 
 .product-list-item-price {
@@ -305,21 +248,22 @@
     color: #5c5c5c;
     font-size: 14px;
     /*line-height: 1.625;*/
+    line-height: 2;
 }
 
 .product-list-item-reviews {
     text-align: center;
+    font-size: .6em;
     color: #5c5c5c;
 }
 
 .fa-star {
-    font-size: 1em;
-    color: red;
+    position: relative;
+    bottom: 2px;
 }
 
-.reviewCount {
+.review-quantity {
     font-size: 14px;
-    line-height: 1.625;
 }
 
 .main-footer {
@@ -361,7 +305,7 @@
     }
     .navigation-list {
         width: 500px;
-                color: #7D7D7D;
+        color: #7D7D7D;
         display: flex;
         align-items: center;
         justify-content: space-around;
