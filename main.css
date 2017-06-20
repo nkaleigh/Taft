@@ -102,7 +102,7 @@
 .branding-search-form-container {
     position: relative;
     float: right;
-    background: yellow;
+    /*background: yellow;*/
 }
 
 .search-form {
@@ -140,6 +140,7 @@
 
 .navigation-list-shoes-dropdown {
     font-size: 18px;
+    opacity: .8;
 }
 
 .fa-chevron-down {
@@ -151,9 +152,14 @@
 
 .dropdown {
     display: none;
+    padding-top: 15px;
+    padding-bottom: 14px;
     position: absolute;
-    top: 60px;
+    top: 59px;
     left: 0px;
+    width: 200px;
+    border-top: 1px solid #e4e4e4;
+    background: #fff;
 }
 
 .dropdown li {
@@ -162,16 +168,34 @@
     line-height: 1.6em;
     letter-spacing: 0;
     font-size: 14px;
-    background: red;
+    background: white;
+}
+
+.block-border {
+    display: none;
+    height: 7px;
+    width: 100%;
+    position: absolute;
+    bottom: -3px;
+    right: 0px;
+    z-index: 2000;
+    background: white;
 }
 
 .navigation-list-shoes:hover {
     cursor: pointer;
-    border: 1px solid #e4e4e4;
+    border-top: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+    border-left: 1px solid #e4e4e4;
 }
 
 .navigation-list-shoes:hover .dropdown {
     display: block;
+}
+
+.navigation-list-shoes:hover .block-border {
+    display: inline-block;
+    position: aboslute;
 }
 
 .navigation-wrapper-placeholder {
@@ -342,17 +366,19 @@
         color: #5c5c5c;
         font-size: 8px;
         -webkit-font-smoothing: antialiased;
-        opacity: .8;
-        background: yellow;
+        /*background: yellow;*/
     }
     .navigation-list-home {
         font-size: 18px;
+        opacity: .8;
     }
     .navigation-list-coming {
         font-size: 18px;
+        opacity: .8;
     }
     .navigation-list-about {
         font-size: 18px;
+        opacity: .8;
     }
 }
 
