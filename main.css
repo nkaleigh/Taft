@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Lato");
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+@import url("https://fonts.googleapis.com/css?family=Karla");
+@import url("https://fonts.googleapis.com/css?family=Lora");
 .wrapper {
     font-family: 'Lato', sans-serif;
 }
@@ -216,7 +218,6 @@
 
 .main-content {
     margin: 55px 30px 0 30px;
-    border-bottom: 1px solid #e4e4e4;
     /*background: red;*/
 }
 
@@ -268,15 +269,109 @@
     font-size: 14px;
 }
 
-.upper-footer {
-    width: 100%;
-    height: 40px;
-    background: yellow;
+footer {
+    margin: 0 auto 30px;
+    padding: 0 30px;
+    background: red;
 }
 
-.lower-footer {
+.upper-footer {
+    /*width: 100%;*/
+    /*height: auto;*/
+    /*padding: 40px 0 50px;*/
+    padding-bottom: 50px;
+    border-top: 1px solid #e4e4e4;
+    color: #5c5c5c;
+    line-height: 1.625;
+    background: yellow;
+    text-align: center;
+}
+
+.section-list {
+    list-style: none;
+    font-size: 14px;
+    font-family: Lato, sans-serif;
+}
+
+.footer-linklist {
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 30px;
+    width: 16%;
+    font-size: 14px;
+}
+
+.section-title {
+    font-family: Karla, sans-serif;
+    font-weight: 400;
+    color: #222;
+    /*margin: 0 0 20px;*/
+    margin: 40px 0 20px;
+    font-size: 16px;
+}
+
+.section-title .mailing-list {
+    /*max-width: 305px;*/
+    font-size: 14px;
+}
+
+.mailing-list {
+    /*float: none;*/
+    /*margin: 0 auto 40px;*/
+    /*text-align: center;*/
+    /*width: 100%;*/
+    /*max-width: 100%;*/
+}
+
+.mailing-list form {
+    position: relative;
+    /*max-width: 380px;*/
+    /*margin: 0 auto;*/
+}
+
+.mailing-list-email {
+    /*display: inline-block;*/
+    /*vertical-align: top;*/
+    /*height: 39px;*/
+    margin: 5px 0;
+    padding: 12px 12px 12px;
+    font-size: 13px;
+    border: 1px solid #e4e4e4;
+    color: #5c5c5c;
+    max-width: 340px;
+    width: 90%;
+    border-radius: 2px;
+    background: #fff;
+}
+
+.mailing-list-submit {
+    position: absolute;
+    bottom: 6px;
+    right: -23px;
+}
+
+.submit {
+    width: 60%;
+    /*margin: 5px 0;*/
+    /*padding: 1px 10px 0;*/
+    font-size: 13px;
+    line-height: 38px;
+    /*border-top-left-radius: 0;*/
+    /*border-bottom-left-radius: 0;*/
+    background: #dd5900;
+    font-family: Lora, serif;
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+}
+
+
+
+.sub-footer {
     width: 100%;
-    height: 100px;
+    height: auto;
     background: purple;
 }
 
@@ -351,6 +446,10 @@
     .product-list-item {
         max-width: 33.333%;
     }
+    .upper-footer {
+        display: flex;
+        justify-content: space-around;
+    }
 }
 
 @media (min-width: 1020px) {
@@ -363,6 +462,4 @@
     }
 }
 
-@media (min-width: 1250) {
-
-}
+@media (min-width: 1250) {}
