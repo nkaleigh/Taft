@@ -272,7 +272,7 @@
         footer {
             margin: 0 auto 30px;
             padding: 0 30px;
-            background: red;
+            /*background: red;*/
         }
 
         .upper-footer {
@@ -283,7 +283,7 @@
             border-top: 1px solid #e4e4e4;
             color: #5c5c5c;
             line-height: 1.625;
-            background: yellow;
+            /*background: yellow;*/
             text-align: center;
         }
 
@@ -350,12 +350,16 @@
             right: -23px;
         }
 
+        .mailing-list-email:focus {
+            outline: 1px solid #dd5900;
+        }
+
         .submit {
             width: 60%;
             /*margin: 5px 0;*/
             /*padding: 1px 10px 0;*/
             font-size: 13px;
-            line-height: 38px;
+            line-height: 37px;
             /*border-top-left-radius: 0;*/
             /*border-bottom-left-radius: 0;*/
             background: #dd5900;
@@ -365,6 +369,8 @@
             cursor: pointer;
             border: none;
             text-align: center;
+            border: 1px solid #dd5900;
+            border-radius: 2px;
         }
 
         .sub-footer {
@@ -473,4 +479,3 @@
                 right: -34px;
             }
         }
-
